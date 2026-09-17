@@ -348,3 +348,74 @@ Clear and consistent file names will be used throughout the project to make the 
 **wireframe-donation.png 1**
 
 **wireframe-contact.png 1**
+
+# PART 2 – CSS STYLING AND RESPONSIVE DESIGN
+
+## 8. CSS STYLING
+
+Part 2 focused on improving the visual design, layout, typography, and responsiveness of the Paws & Whiskers Animal Rescue website.
+
+An external CSS stylesheet named `styles.css` is used throughout all website pages. This ensures that the website has a consistent visual appearance and makes the styling easier to maintain.
+
+The stylesheet includes:
+
+- CSS reset and box-sizing rules.
+- Consistent font family and typography.
+- Colour scheme using blue, orange, white, and light grey.
+- Styled headings and paragraphs.
+- Flexbox navigation.
+- Responsive page layouts.
+- Styled animal profile cards.
+- Styled forms and form controls.
+- Buttons and links with hover effects.
+- Borders, rounded corners, and box shadows.
+- Footer styling.
+- Responsive media queries for smaller screens.
+
+## 9. RESPONSIVE DESIGN
+
+Responsive design was implemented using CSS media queries.
+
+The website includes layouts for:
+
+- Desktop screens.
+- Tablet screens.
+- Mobile screens.
+
+The navigation changes to a vertical layout on smaller screens. Animal content is also adjusted to fit smaller screen sizes.
+
+Relative sizing and responsive image rules were used to prevent images from overflowing the page.
+
+## 10. PART 2 TESTING
+
+The website was tested in a web browser at different screen sizes.
+
+Testing included:
+
+- Desktop layout.
+- Tablet layout.
+- Mobile layout.
+- Navigation links.
+- Page spacing and alignment.
+- Image sizing.
+- Form layout.
+- Button and link hover effects.
+
+The website was adjusted where necessary to improve the layout and prevent content from becoming too large or difficult to view on smaller screens.
+
+## 11. PART 2 CHANGELOG
+
+### Part 2 Changes
+
+- Updated the external CSS stylesheet.
+- Applied consistent styling across all website pages.
+- Improved typography and heading sizes.
+- Added responsive navigation styling.
+- Added responsive layouts for desktop, tablet, and mobile screens.
+- Styled animal profile cards.
+- Improved form styling.
+- Added hover and focus effects to links and buttons.
+- Added borders, rounded corners, and box shadows to improve the visual appearance.
+- Adjusted image sizing to prevent oversized images.
+- Connected all six HTML pages to the correct `styles.css` stylesheet.
+- Tested the website in a web browser after making the styling changes.
