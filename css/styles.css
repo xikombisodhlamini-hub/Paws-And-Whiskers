@@ -1,1 +1,761 @@
-*
+/* ========================================
+   PAWS & WHISKERS ANIMAL RESCUE
+   MODERN WEBSITE STYLES
+   ORIGINAL BLUE + ORANGE COLOUR SCHEME
+   ======================================== */
+
+
+/* ========================================
+   RESET
+   ======================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+
+/* ========================================
+   HEADER
+   ======================================== */
+
+header {
+    background: linear-gradient(135deg, #1F4E79, #285f8f);
+    color: white;
+    text-align: center;
+    padding: 28px 20px 22px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+    position: relative;
+}
+
+header img {
+    width: 180px;
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto 12px;
+    border-radius: 12px;
+}
+
+header h1 {
+    margin: 5px 0 18px;
+    font-size: 2.4rem;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+}
+
+
+/* ========================================
+   NAVIGATION
+   ======================================== */
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: #F4A261;
+    color: white;
+    transform: translateY(-2px);
+}
+
+nav a:active {
+    background-color: #E76F51;
+    transform: translateY(0);
+}
+
+
+/* ========================================
+   MAIN CONTENT
+   ======================================== */
+
+main {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 45px 25px;
+}
+
+
+/* ========================================
+   SECTIONS
+   ======================================== */
+
+section {
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 35px;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
+    border: 1px solid #e4e4e4;
+}
+
+section:last-child {
+    margin-bottom: 0;
+}
+
+
+/* ========================================
+   HEADINGS
+   ======================================== */
+
+h2 {
+    color: #1F4E79;
+    font-size: 2rem;
+    line-height: 1.25;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+h3 {
+    color: #F4A261;
+    font-size: 1.4rem;
+    line-height: 1.3;
+    margin-top: 0;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+
+/* ========================================
+   HERO / FIRST SECTION
+   ======================================== */
+
+main > section:first-child {
+    background: linear-gradient(
+        135deg,
+        #eef5fa,
+        #ffffff
+    );
+    border-left: 6px solid #F4A261;
+    padding: 45px;
+}
+
+main > section:first-child h2 {
+    font-size: 2.5rem;
+}
+
+main > section:first-child p {
+    max-width: 750px;
+    font-size: 1.1rem;
+}
+
+
+/* ========================================
+   LINKS / BUTTONS
+   ======================================== */
+
+main a {
+    display: inline-block;
+    background-color: #F4A261;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: 5px 5px 5px 0;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+main a:hover,
+main a:focus {
+    background-color: #1F4E79;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.12);
+}
+
+main a:active {
+    background-color: #E76F51;
+    transform: translateY(0);
+}
+
+
+/* ========================================
+   ANIMAL CARDS
+   ======================================== */
+
+article {
+    background-color: #ffffff;
+    padding: 22px;
+    margin: 20px 0;
+    border-radius: 14px;
+    text-align: center;
+    border: 1px solid #e3e3e3;
+    border-top: 5px solid #F4A261;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07);
+    transition: all 0.3s ease;
+}
+
+article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+article img {
+    width: 220px;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto 18px;
+    border-radius: 12px;
+}
+
+article h3 {
+    color: #1F4E79;
+    margin-bottom: 10px;
+}
+
+article p {
+    max-width: 550px;
+    margin: 0 auto 15px;
+}
+
+
+/* ========================================
+   FEATURED ANIMALS GRID
+   ======================================== */
+
+main > section:nth-child(3) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+main > section:nth-child(3) h2 {
+    grid-column: 1 / -1;
+}
+
+main > section:nth-child(3) > a {
+    grid-column: 1 / -1;
+    justify-self: center;
+}
+
+
+/* ========================================
+   IMAGES
+   ======================================== */
+
+main img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 14px;
+}
+
+main > section:first-child > img {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin: 0 auto 25px;
+    object-fit: contain;
+    border-radius: 14px;
+}
+
+main section:last-child > img {
+    display: block;
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+    margin: 0 auto 25px;
+    object-fit: contain;
+    border-radius: 16px;
+}
+
+
+/* ========================================
+   ABOUT HIGHLIGHT
+   ======================================== */
+
+.about-highlight {
+    background-color: #f5f5f5;
+    border-left: 5px solid #F4A261;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.about-highlight h3 {
+    color: #1F4E79;
+}
+
+
+/* ========================================
+   ADOPTION CTA
+   ======================================== */
+
+.adoption-cta {
+    background: linear-gradient(
+        135deg,
+        #1F4E79,
+        #285f8f
+    );
+    color: white;
+    text-align: center;
+}
+
+.adoption-cta h2 {
+    color: white;
+}
+
+.adoption-cta p {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ========================================
+   DONATION
+   ======================================== */
+
+.donation-section {
+    background-color: white;
+    border-left: 5px solid #F4A261;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.07);
+}
+
+.donation-section h2 {
+    color: #1F4E79;
+}
+
+
+/* ========================================
+   CONTACT
+   ======================================== */
+
+.contact-box {
+    background-color: white;
+    border-left: 5px solid #1F4E79;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.07);
+}
+
+.contact-box h2 {
+    color: #1F4E79;
+}
+
+.contact-box h3 {
+    color: #F4A261;
+}
+
+
+/* ========================================
+   GOOGLE MAPS
+   ======================================== */
+
+iframe {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    margin: 20px auto;
+    border: 0;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.10);
+}
+
+
+/* ========================================
+   FORMS
+   ======================================== */
+
+form {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+form div {
+    margin-bottom: 5px;
+}
+
+label {
+    display: block;
+    color: #1F4E79;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 13px 14px;
+    margin-top: 3px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    background-color: #fbfbfb;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+input:hover,
+select:hover,
+textarea:hover {
+    border-color: #1F4E79;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border: 2px solid #F4A261;
+    background-color: white;
+    box-shadow: 0 0 0 3px rgba(244, 162, 97, 0.15);
+}
+
+textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+button {
+    background-color: #1F4E79;
+    color: white;
+    border: none;
+    padding: 13px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+button:hover,
+button:focus {
+    background-color: #F4A261;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.12);
+}
+
+button:active {
+    background-color: #E76F51;
+    transform: translateY(0);
+}
+
+
+/* ========================================
+   FORM ERROR MESSAGES
+   ======================================== */
+
+small {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.9rem;
+}
+
+#contactResponse,
+#enquiryResponse {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+
+/* ========================================
+   FAQ ACCORDION
+   ======================================== */
+
+.faq-item {
+    margin-bottom: 12px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.faq-question {
+    width: 100%;
+    display: block;
+    text-align: left;
+    background-color: #eef5fa;
+    color: #1F4E79;
+    border: none;
+    border-radius: 0;
+    padding: 16px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.faq-question:hover,
+.faq-question:focus {
+    background-color: #dceaf5;
+    color: #1F4E79;
+    transform: none;
+    box-shadow: none;
+}
+
+.faq-answer {
+    padding: 18px 20px;
+    background-color: white;
+}
+
+
+/* ========================================
+   LISTS
+   ======================================== */
+
+main ol,
+main ul {
+    max-width: 850px;
+    margin: 20px auto;
+    padding: 20px 40px;
+}
+
+main ol li,
+main ul li {
+    margin-bottom: 10px;
+}
+
+main ol {
+    background-color: #f5f5f5;
+    border-left: 5px solid #F4A261;
+    border-radius: 8px;
+}
+
+main ul {
+    background-color: #f5f5f5;
+    border-left: 5px solid #1F4E79;
+    border-radius: 8px;
+}
+
+
+/* ========================================
+   SOCIAL MEDIA
+   ======================================== */
+
+main ul a {
+    margin: 3px 0;
+}
+
+
+/* ========================================
+   FOOTER
+   ======================================== */
+
+footer {
+    background: linear-gradient(
+        135deg,
+        #1F4E79,
+        #285f8f
+    );
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 0;
+}
+
+footer p {
+    margin: 8px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #F4A261;
+}
+
+
+/* ========================================
+   TABLET
+   ======================================== */
+
+@media (max-width: 900px) {
+
+    header h1 {
+        font-size: 2.1rem;
+    }
+
+    main {
+        padding: 35px 18px;
+    }
+
+    section {
+        padding: 28px;
+    }
+
+    main > section:nth-child(3) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    iframe {
+        height: 350px;
+    }
+}
+
+
+/* ========================================
+   MOBILE
+   ======================================== */
+
+@media (max-width: 600px) {
+
+    body {
+        font-size: 15px;
+    }
+
+    header {
+        padding: 22px 15px;
+    }
+
+    header img {
+        width: 140px;
+    }
+
+    header h1 {
+        font-size: 1.75rem;
+    }
+
+    nav {
+        flex-direction: column;
+        width: 100%;
+        gap: 4px;
+    }
+
+    nav a {
+        width: 100%;
+        max-width: 280px;
+        text-align: center;
+        padding: 9px 12px;
+    }
+
+    main {
+        padding: 20px 12px;
+    }
+
+    section {
+        padding: 22px 18px;
+        margin-bottom: 20px;
+        border-radius: 12px;
+    }
+
+    main > section:first-child {
+        padding: 28px 20px;
+    }
+
+    main > section:first-child h2 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.65rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    main > section:nth-child(3) {
+        display: block;
+    }
+
+    article {
+        margin: 18px 0;
+        padding: 18px;
+    }
+
+    article img {
+        width: 190px;
+        height: 150px;
+    }
+
+    main a {
+        display: block;
+        width: 100%;
+        margin: 8px 0;
+        text-align: center;
+    }
+
+    main section:last-child > img {
+        width: 100%;
+        height: auto;
+    }
+
+    iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    input,
+    select,
+    textarea {
+        font-size: 16px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    main ol,
+    main ul {
+        padding: 18px 25px;
+    }
+
+    footer {
+        padding: 25px 15px;
+    }
+}
+
+
+/* ========================================
+   REDUCED MOTION
+   ======================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        transition: none !important;
+        animation: none !important;
+    }
+}

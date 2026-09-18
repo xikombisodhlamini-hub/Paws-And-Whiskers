@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Contact Paws & Whiskers Animal Rescue for animal adoption, volunteering, sponsorship, donations, and animal welfare enquiries in Pretoria and Johannesburg.">
+
+    <meta name="keywords"
+        content="contact animal rescue, animal rescue Pretoria, animal rescue Johannesburg, animal adoption, animal welfare, Paws and Whiskers">
+
+    <title>Contact Animal Rescue | Paws & Whiskers Animal Rescue</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+
+        <img
+            src="images/LOGO.jpeg"
+            alt="Paws & Whiskers Animal Rescue logo">
+
+        <h1>Paws & Whiskers Animal Rescue</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="adoption.html">Adoption</a>
+            <a href="enquiry.html">Enquiry</a>
+            <a href="donation.html">Donation</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section>
+
+            <h2>Contact Us</h2>
+
+            <p>
+                Get in touch with Paws & Whiskers Animal Rescue
+                for questions about adoption, volunteering,
+                sponsorship, donations, or animal welfare.
+            </p>
+
+        </section>
+
+
+        <section>
+
+            <h2>Our Locations</h2>
+
+            <h3>Pretoria Branch</h3>
+
+            <iframe
+                src="https://www.google.com/maps?q=Pretoria%20South%20Africa&output=embed"
+                width="100%"
+                height="300"
+                style="border:0;"
+                loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"
+                title="Google Maps location of Paws & Whiskers Pretoria Branch">
+            </iframe>
+
+
+            <h3>Johannesburg Branch</h3>
+
+            <iframe
+                src="https://www.google.com/maps?q=Johannesburg%20South%20Africa&output=embed"
+                width="100%"
+                height="300"
+                style="border:0;"
+                loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"
+                title="Google Maps location of Paws & Whiskers Johannesburg Branch">
+            </iframe>
+
+        </section>
+
+
+        <section>
+
+            <h2>Send Us a Message</h2>
+
+            <form
+                id="contactForm"
+                action="https://formspree.io/f/mwlpkjge"
+                method="POST">
+
+                <label for="name">Full Name:</label>
+
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    minlength="2">
+
+                <small id="name-error"></small>
+
+
+                <label for="email">Email Address:</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required>
+
+                <small id="contact-email-error"></small>
+
+
+                <label for="subject">Subject:</label>
+
+                <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    required
+                    minlength="3">
+
+                <small id="subject-error"></small>
+
+
+                <label for="message">Message:</label>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    required
+                    minlength="10"
+                    maxlength="500"></textarea>
+
+                <small id="contact-message-error"></small>
+
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+            <div id="contactResponse"></div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            &copy; 2026 Paws & Whiskers Animal Rescue.
+            All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
