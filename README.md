@@ -419,3 +419,127 @@ The website was adjusted where necessary to improve the layout and prevent conte
 - Adjusted image sizing to prevent oversized images.
 - Connected all six HTML pages to the correct `styles.css` stylesheet.
 - Tested the website in a web browser after making the styling changes.
+
+- # PART 3 – ENHANCING FUNCTIONALITY AND SEO
+
+## 12. JAVASCRIPT FUNCTIONALITY
+
+JavaScript functionality was added to improve the interactivity and usability of the website.
+
+The following features were implemented:
+
+- Enquiry form validation.
+- Contact form validation.
+- FAQ accordion functionality.
+- Animal filtering functionality.
+- Dynamic DOM manipulation.
+- User-friendly validation error messages.
+- Automatic generation of contact email content.
+- Interactive buttons and form responses.
+
+## 13. ANIMAL FILTER
+
+An animal filtering feature was added to the Adoption page.
+
+Users can filter the available animals by:
+
+- All Animals
+- Dogs
+- Cats
+
+JavaScript dynamically shows or hides animal cards based on the selected animal type.
+
+## 14. FAQ ACCORDION
+
+An interactive FAQ accordion was added to the Adoption page.
+
+Users can click an FAQ question to display or hide its answer. This reduces the amount of information displayed at once and makes the page easier to navigate.
+
+## 15. FORM VALIDATION
+
+JavaScript validation was implemented for the Enquiry and Contact forms.
+
+Validation includes:
+
+- Full name validation.
+- Phone number validation.
+- Email address validation.
+- Enquiry type validation.
+- Subject validation.
+- Message length validation.
+- Required field checking.
+- User-friendly error messages.
+
+HTML5 validation attributes were also used where appropriate.
+
+## 16. SEO IMPLEMENTATION
+
+Search Engine Optimisation improvements were added to all website pages.
+
+The following SEO features were implemented:
+
+- Unique page titles.
+- Meta descriptions.
+- Relevant keywords.
+- Proper heading structure.
+- Descriptive image alt text.
+- Internal links between website pages.
+- Mobile-responsive design.
+- Clean and descriptive page filenames.
+- robots.txt file.
+- sitemap.xml file.
+
+## 17. GOOGLE MAPS
+
+Interactive Google Maps embeds were added to the Contact page.
+
+The maps allow visitors to view the Pretoria and Johannesburg branch locations.
+
+Lazy loading was applied to the map iframes to help improve page loading performance.
+
+## 18. FORM SUBMISSION
+
+The Enquiry form was connected to Formspree so that submitted enquiries can be received and processed.
+
+The form uses an external Formspree endpoint and provides HTML5 and JavaScript validation before submission.
+
+The Contact form validates the user's information and prepares the submitted details for an email using a mailto link.
+
+## 19. PART 3 TESTING
+
+The website was tested after implementing the new functionality.
+
+Testing included:
+
+- Testing the FAQ accordion.
+- Testing the animal filter.
+- Testing enquiry form validation.
+- Testing successful enquiry form submission.
+- Testing contact form validation.
+- Testing navigation links.
+- Testing Google Maps.
+- Testing responsive layouts.
+- Checking page titles and meta information.
+- Checking image alternative text.
+- Checking robots.txt and sitemap.xml.
+
+The animal filter was tested using all three available options: All Animals, Dogs, and Cats.
+
+## 20. PART 3 CHANGELOG
+
+### Part 3 Changes
+
+- Added JavaScript functionality.
+- Added FAQ accordion functionality.
+- Added animal filtering functionality.
+- Added client-side form validation.
+- Connected the Enquiry form to Formspree.
+- Added contact form email generation.
+- Added SEO titles and meta descriptions.
+- Added relevant keywords to website pages.
+- Improved image alt text.
+- Added Google Maps embeds.
+- Added robots.txt.
+- Added sitemap.xml.
+- Improved internal linking.
+- Tested website functionality and responsiveness.
