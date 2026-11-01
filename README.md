@@ -489,6 +489,58 @@ The following SEO features were implemented:
 - robots.txt file.
 - sitemap.xml file.
 
+- 
+## 16.1 KEYWORD RESEARCH
+
+Keyword research was conducted to identify relevant search phrases that potential visitors may use when looking for animal rescue organisations, animal adoption services, volunteering opportunities, and ways to support animal welfare.
+
+The selected keywords are based on the website's target audience, its services, and its intended geographic focus.
+
+### Primary Keywords
+
+- Animal rescue organisation.
+- Animal adoption.
+- Animal shelter.
+- Animal welfare.
+- Dogs available for adoption.
+- Cats available for adoption.
+
+### Secondary Keywords
+
+- Volunteer at an animal shelter.
+- Adopt a rescued dog.
+- Adopt a rescued cat.
+- Support animal rescue.
+- Donate to animal welfare.
+- Sponsor rescued animals.
+- Animal rescue volunteering opportunities.
+- Responsible pet ownership.
+
+### Location-Based Keywords
+
+- Animal rescue in Pretoria.
+- Animal adoption in Pretoria.
+- Animal rescue in Johannesburg.
+- Pet adoption in Johannesburg.
+- Animal welfare in Gauteng.
+
+### Keyword Placement
+
+The selected keywords were considered when improving the website's SEO content.
+
+They are incorporated naturally into relevant areas, including:
+
+- Page titles and meta descriptions.
+- Main headings and subheadings.
+- Website paragraphs and page content.
+- Internal links between related pages.
+- Descriptive image alternative text.
+
+Each page focuses on keywords relevant to its purpose. For example, the Adoption page focuses on animal adoption and available dogs and cats, while the Donation page focuses on supporting animal rescue and animal welfare.
+
+The keywords are used naturally to keep the website content useful and readable for visitors.
+
+
 ## 17. GOOGLE MAPS
 
 Interactive Google Maps embeds were added to the Contact page.
