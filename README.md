@@ -577,6 +577,37 @@ Testing included:
 
 The animal filter was tested using all three available options: All Animals, Dogs, and Cats.
 
+
+- Google PageSpeed Insights performance testing achieved a score of 99/100.
+- Google PageSpeed Insights mobile performance test achieved a score of 99/100.
+
+- Google PageSpeed Insights mobile performance score: 99/100.
+- Google PageSpeed Insights desktop performance score: 97/100.
+
+- 
+- Google PageSpeed Insights desktop accessibility score: 91/100.
+- Google PageSpeed Insights mobile accessibility score: 91/100.
+
+
+- Google PageSpeed Insights mobile best practices score: 100/100.
+- Google PageSpeed Insights desktop best practices score: 100/100.
+
+
+### Google PageSpeed Insights Results
+
+The website was evaluated using Google PageSpeed Insights to assess its performance, accessibility, best practices, and search engine optimisation.
+
+| Category | Mobile Score | Desktop Score |
+|---|---:|---:|
+| Performance | 99/100 | 97/100 |
+| Accessibility | 91/100 | 91/100 |
+| Best Practices | 100/100 | 100/100 |
+| SEO | 91/100 | 91/100 |
+
+The results indicate that the website performs well across mobile and desktop devices. The testing also identified opportunities for further improvements in accessibility and SEO.
+
+
+
 ## 20. PART 3 CHANGELOG
 
 ### Part 3 Changes
