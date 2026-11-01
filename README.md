@@ -607,6 +607,21 @@ The website was evaluated using Google PageSpeed Insights to assess its performa
 The results indicate that the website performs well across mobile and desktop devices. The testing also identified opportunities for further improvements in accessibility and SEO.
 
 
+### Accessibility and SEO Audit Findings
+
+The PageSpeed Insights reports showed no visible failed audits in the Accessibility or SEO categories.
+
+The following checks were confirmed:
+
+- Robots.txt is valid.
+- The document has a valid canonical URL.
+- Structured data is valid.
+- No failed Accessibility audits were displayed.
+
+These results indicate that the website meets the checks reported by PageSpeed Insights. Further improvements may still be possible through manual review.
+
+
+
 
 ## 20. PART 3 CHANGELOG
 
