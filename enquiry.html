@@ -1,0 +1,309 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Enquire about volunteering, animal adoption or sponsorship at Paws & Whiskers Animal Rescue. Discover ways to support rescued animals and animal welfare.">
+
+    <link rel="canonical" href="https://xikombisodhlamini-hub.github.io/Paws-And-Whiskers/enquiry.html">
+
+    <title>Volunteer & Sponsorship Enquiry | Paws & Whiskers Animal Rescue</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Header and Navigation -->
+    <header>
+        <h1>Paws & Whiskers Animal Rescue</h1>
+
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="adoption.html">Adoption</a>
+            <a href="enquiry.html" aria-current="page">Enquiry</a>
+            <a href="donation.html">Donation & Support</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Page Introduction -->
+        <section class="hero-section">
+            <h2>Volunteer & Sponsorship Enquiry</h2>
+
+            <p>
+                There are many ways to support Paws & Whiskers Animal Rescue.
+                You can volunteer your time, help with community activities,
+                or become a sponsor to support the care of rescued animals.
+            </p>
+
+            <p>
+                Complete the form below and a member of our team will review
+                your enquiry and contact you with more information.
+            </p>
+
+            <p>
+                Interested in adopting instead?
+                <a href="adoption.html">Explore animals available for adoption</a>.
+            </p>
+
+            <p>
+                <a href="about.html">Learn more about our rescue organisation</a>.
+            </p>
+        </section>
+
+        <!-- Volunteer Information -->
+        <section>
+            <h2>Volunteer With Us</h2>
+
+            <figure>
+                <img
+                    src="images/animal-rescue-volunteer.jpeg"
+                    alt="Volunteers caring for rescued animals at Paws & Whiskers Animal Rescue"
+                    loading="lazy">
+            </figure>
+
+            <p>
+                Volunteers play an important role in supporting our rescue
+                activities and helping animals in need.
+            </p>
+
+            <p>Volunteer opportunities may include:</p>
+
+            <ul>
+                <li>Assisting with animal care.</li>
+                <li>Helping at fundraising events.</li>
+                <li>Supporting community outreach programmes.</li>
+                <li>Assisting with adoption events.</li>
+                <li>Helping with administrative activities.</li>
+                <li>Supporting animal awareness campaigns.</li>
+            </ul>
+        </section>
+
+        <!-- Sponsorship Information -->
+        <section>
+            <h2>Become a Sponsor</h2>
+
+            <p>
+                Sponsors help us provide rescued animals with food, shelter,
+                veterinary care, and other essential resources.
+            </p>
+
+            <p>
+                Businesses and individuals interested in supporting our
+                organisation can submit a sponsorship enquiry using the form
+                below.
+            </p>
+
+            <p>
+                <a href="donation.html">Explore other ways to support our rescue</a>.
+            </p>
+        </section>
+
+        <!-- Enquiry Form -->
+        <section>
+            <h2>Enquiry Form</h2>
+
+            <p>
+                Select the type of enquiry that best describes how you would
+                like to get involved. Our team will review your information
+                and respond with relevant details.
+            </p>
+
+            <form
+                id="enquiryForm"
+                action="https://formspree.io/f/mzezbqyo"
+                method="POST">
+
+                <!-- Full Name -->
+                <div class="form-group">
+                    <label for="full-name">Full Name:</label>
+
+                    <input
+                        type="text"
+                        id="full-name"
+                        name="full-name"
+                        placeholder="Enter your full name"
+                        minlength="2"
+                        maxlength="60"
+                        autocomplete="name"
+                        aria-describedby="full-name-error"
+                        required>
+
+                    <small
+                        id="full-name-error"
+                        class="field-error"
+                        role="alert"
+                        hidden></small>
+                </div>
+
+                <!-- Phone Number -->
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="e.g. 0821234567"
+                        pattern="[0-9+\s()-]{10,20}"
+                        minlength="10"
+                        maxlength="20"
+                        autocomplete="tel"
+                        aria-describedby="phone-error"
+                        required>
+
+                    <small
+                        id="phone-error"
+                        class="field-error"
+                        role="alert"
+                        hidden></small>
+                </div>
+
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email address"
+                        maxlength="100"
+                        autocomplete="email"
+                        aria-describedby="email-error"
+                        required>
+
+                    <small
+                        id="email-error"
+                        class="field-error"
+                        role="alert"
+                        hidden></small>
+                </div>
+
+                <!-- Enquiry Type -->
+                <div class="form-group">
+                    <label for="enquiry-type">Type of Enquiry:</label>
+
+                    <select
+                        id="enquiry-type"
+                        name="enquiry-type"
+                        aria-describedby="enquiry-type-error"
+                        required>
+
+                        <option value="">Select an option</option>
+                        <option value="volunteer">Volunteer</option>
+                        <option value="sponsor">Sponsorship</option>
+                        <option value="adoption">Adoption</option>
+                        <option value="general">General Enquiry</option>
+
+                    </select>
+
+                    <small
+                        id="enquiry-type-error"
+                        class="field-error"
+                        role="alert"
+                        hidden></small>
+                </div>
+
+                <!-- Availability -->
+                <div class="form-group">
+                    <label for="availability">Availability:</label>
+
+                    <select
+                        id="availability"
+                        name="availability">
+
+                        <option value="">Select your availability</option>
+                        <option value="weekdays">Weekdays</option>
+                        <option value="weekends">Weekends</option>
+                        <option value="both">Weekdays and Weekends</option>
+
+                    </select>
+                </div>
+
+                <!-- Preferred Area -->
+                <div class="form-group">
+                    <label for="support-area">Area of Interest:</label>
+
+                    <input
+                        type="text"
+                        id="support-area"
+                        name="support-area"
+                        placeholder="e.g. Animal care, fundraising"
+                        maxlength="100">
+                </div>
+
+                <!-- Message -->
+                <div class="form-group">
+                    <label for="message">Additional Message:</label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        maxlength="500"
+                        placeholder="Tell us more about your enquiry"
+                        aria-describedby="message-error"></textarea>
+
+                    <small
+                        id="message-error"
+                        class="field-error"
+                        role="alert"
+                        hidden></small>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="form-group">
+                    <button type="submit">Submit Enquiry</button>
+                </div>
+
+            </form>
+
+            <!-- Form Response -->
+            <div
+                id="enquiryResponse"
+                class="form-response"
+                role="status"
+                aria-live="polite">
+            </div>
+
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta-section">
+            <h2>Other Ways to Support Us</h2>
+
+            <p>
+                If you would like to support Paws & Whiskers financially,
+                visit our Donation & Support page.
+            </p>
+
+            <a href="donation.html">Support Our Rescue</a>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            &copy; 2026 Paws & Whiskers Animal Rescue. All rights reserved.
+        </p>
+
+        <p>
+            <a href="contact.html">Contact Us</a>
+        </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

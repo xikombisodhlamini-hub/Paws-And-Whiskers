@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Contact Paws & Whiskers Animal Rescue for animal adoption, volunteering, sponsorship, donations, and animal welfare enquiries in Pretoria and Johannesburg.">
+
+    <title>Contact Animal Rescue | Paws & Whiskers Animal Rescue</title>
+
+    <link rel="canonical"
+        href="https://xikombisodhlamini-hub.github.io/Paws-And-Whiskers/contact.html">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <img
+            src="images/paws-whiskers-animal-rescue-logo.jpeg"
+            alt="Paws & Whiskers Animal Rescue logo">
+
+        <h1>Paws & Whiskers Animal Rescue</h1>
+
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="adoption.html">Adoption</a>
+            <a href="enquiry.html">Enquiry</a>
+            <a href="donation.html">Donation</a>
+            <a href="contact.html" aria-current="page">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Page Introduction -->
+        <section class="hero-section">
+            <h2>Contact Us</h2>
+
+            <p>
+                Get in touch with Paws & Whiskers Animal Rescue
+                for questions about adoption, volunteering,
+                sponsorship, donations, or animal welfare.
+            </p>
+
+            <p>
+                You can also explore our
+                <a href="adoption.html">animals available for adoption</a>,
+                learn about
+                <a href="enquiry.html">volunteering opportunities</a>,
+                or discover
+                <a href="donation.html">ways to support our rescue work</a>.
+            </p>
+        </section>
+
+        <!-- Locations -->
+        <section class="locations-section">
+            <h2>Find Us on the Map</h2>
+
+            <article class="location-card">
+                <h3>Pretoria, Gauteng</h3>
+
+                <iframe
+                    src="https://www.google.com/maps?q=Pretoria%20South%20Africa&output=embed"
+                    title="Google Maps showing Pretoria, Gauteng"
+                    loading="lazy"
+                    referrerpolicy="strict-origin-when-cross-origin">
+                </iframe>
+            </article>
+
+            <article class="location-card">
+                <h3>Johannesburg, Gauteng</h3>
+
+                <iframe
+                    src="https://www.google.com/maps?q=Johannesburg%20South%20Africa&output=embed"
+                    title="Google Maps showing Johannesburg, Gauteng"
+                    loading="lazy"
+                    referrerpolicy="strict-origin-when-cross-origin">
+                </iframe>
+            </article>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="contact-form-section">
+            <h2>Send Us a Message</h2>
+
+            <p>
+                Complete the form below and select the category
+                that best describes your enquiry.
+            </p>
+
+            <form
+                id="contactForm"
+                action="https://formspree.io/f/mwlpkjge"
+                method="POST">
+
+                <!-- Full Name -->
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        required
+                        minlength="2"
+                        autocomplete="name"
+                        aria-describedby="name-error">
+
+                    <small id="name-error"
+                        class="field-error"
+                        role="alert"
+                        hidden></small>
+                </div>
+
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                        autocomplete="email"
+                        aria-describedby="contact-email-error">
+
+                    <small id="contact-email-error"
+                        class="field-error"
+                        role="alert"
+                        hidden></small>
+                </div>
+
+                <!-- Message Category -->
+                <div class="form-group">
+                    <label for="message-category">
+                        Type of Message:
+                    </label>
+
+                    <select
+                        id="message-category"
+                        name="message-category"
+                        required
+                        aria-describedby="category-error">
+
+                        <option value="">Select a category</option>
+                        <option value="Animal Adoption">Animal Adoption</option>
+                        <option value="Volunteering">Volunteering</option>
+                        <option value="Donations">Donations</option>
+                        <option value="Sponsorship">Sponsorship</option>
+                        <option value="Animal Welfare">Animal Welfare</option>
+                        <option value="General Enquiry">General Enquiry</option>
+
+                    </select>
+
+                    <small id="category-error"
+                        class="field-error"
+                        role="alert"
+                        hidden></small>
+                </div>
+
+                <!-- Subject -->
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        required
+                        minlength="3"
+                        aria-describedby="subject-error">
+
+                    <small id="subject-error"
+                        class="field-error"
+                        role="alert"
+                        hidden></small>
+                </div>
+
+                <!-- Message -->
+                <div class="form-group">
+                    <label for="message">Message:</label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        required
+                        minlength="10"
+                        maxlength="500"
+                        aria-describedby="contact-message-error"></textarea>
+
+                    <small id="contact-message-error"
+                        class="field-error"
+                        role="alert"
+                        hidden></small>
+                </div>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+
+            <div
+                id="contactResponse"
+                class="form-response"
+                role="status"
+                aria-live="polite">
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            &copy; 2026 Paws & Whiskers Animal Rescue.
+            All rights reserved.
+        </p>
+
+        <p>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About Us</a> |
+            <a href="adoption.html">Adoption</a> |
+            <a href="enquiry.html">Enquiry</a> |
+            <a href="donation.html">Donation</a>
+        </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
